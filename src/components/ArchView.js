@@ -758,7 +758,7 @@ class ArchView extends Component {
                     <Panel.Title componentClass="h3">臨櫃申請</Panel.Title>
                     </Panel.Heading>
                     <Panel.Body>
-                    <Link to={`/arch/分區證明線上申辦`} ><h4>臨櫃申請（請點此）</h4></Link>
+                    <Link to={`/internal/arch/分區證明線上申辦`} ><h4>臨櫃申請（請點此）</h4></Link>
                     {/* <ABlank url="http://child.wratb.gov.tw/apply/PublicApply.aspx" name="線上申請（請點此）" /> */}
                     </Panel.Body>
                 </Panel>
@@ -816,7 +816,7 @@ class ArchView extends Component {
                 <Panel.Title componentClass="h3">臨櫃申請</Panel.Title>
                 </Panel.Heading>
                 <Panel.Body>
-                <Link to={`/arch/影印圖說申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
+                <Link to={`/internal/arch/影印圖說申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
                 {/* <ABlank url="http://child.wratb.gov.tw/apply/PhoCopyDraw.aspx" name="線上申請（請點此）" /> */}
                 </Panel.Body>
             </Panel>
@@ -893,7 +893,7 @@ class ArchView extends Component {
                 <Panel.Title componentClass="h3">臨櫃申請</Panel.Title>
                 </Panel.Heading>
                 <Panel.Body>
-                <Link to={`/arch/公有畸零地合併使用申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
+                <Link to={`/internal/arch/公有畸零地合併使用申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
                 {/* <ABlank url="http://child.wratb.gov.tw/apply/PublicLandApp.aspx" name="線上申請（請點此）" /> */}
                 </Panel.Body>
             </Panel>
@@ -1130,7 +1130,7 @@ return <div className='marginWrap'>
             <Panel.Title componentClass="h3">臨櫃申請</Panel.Title>
             </Panel.Heading>
             <Panel.Body>
-            <Link to={`/arch/法定空地分割證明申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
+            <Link to={`/internal/arch/法定空地分割證明申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
             {/* <ABlank url="http://child.wratb.gov.tw/apply/LegalLandApp.aspx" name="線上申請（請點此）" /> */}
             </Panel.Body>
         </Panel>
@@ -1516,7 +1516,7 @@ return <div className='marginWrap'>
             <Panel.Title componentClass="h3">臨櫃申請</Panel.Title>
             </Panel.Heading>
             <Panel.Body>
-            <Link to={`/arch/執照遺失切結書`} ><h4>臨櫃申請（請點此）</h4></Link>
+            <Link to={`/internal/arch/執照遺失切結書`} ><h4>臨櫃申請（請點此）</h4></Link>
             {/* <ABlank url="http://child.wratb.gov.tw/apply/LicLoseApp.aspx" name="線上申請（請點此）" /> */}
             </Panel.Body>
         </Panel>
@@ -1575,7 +1575,7 @@ return <div className='marginWrap'>
             <Panel.Title componentClass="h3">臨櫃申請</Panel.Title>
             </Panel.Heading>
             <Panel.Body>
-            <Link to={`/arch/使用執照存根聯申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
+            <Link to={`/internal/arch/使用執照存根聯申請書`} ><h4>臨櫃申請（請點此）</h4></Link>
             </Panel.Body>
         </Panel>
 </Col>
