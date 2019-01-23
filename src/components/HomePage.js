@@ -29,7 +29,7 @@ var Bannerstyle = {width : '32%' ,
         alignItems: 'center'
         }
 export const BannerView = () => (
-    <Link to={`/`}><div style={{...Bannerstyle , content:`url(${banner})`, padding: '0px'}} ></div>
+    <Link to={`/internal/`}><div style={{...Bannerstyle , content:`url(${banner})`, padding: '0px'}} ></div>
             </Link>
 )
 class HomePage extends Component {
@@ -54,22 +54,22 @@ class HomePage extends Component {
         var leftWidthStyle = {width : '33%',float: 'left',height: '100%'}
         return (<>
             <div style={leftWidthStyle}>
-                <Link to={`/arch`}>
+                <Link to={`/internal/arch`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={archButton} alt=""/>
                     </div>
                 </Link>
-                <Link to={`/envEdu`}>
+                <Link to={`/internal/envEdu`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={envEduButton} alt=""/>
                     </div>
                 </Link>
-                <Link to={`/waterKeepView`}>
+                <Link to={`/internal/waterKeepView`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={waterKeepButton} alt=""/>
                     </div>
                 </Link>
-                <Link to={`/dirtyWaterView`}>
+                <Link to={`/internal/dirtyWaterView`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={drtyWaterButton} alt=""/>
                     </div>
@@ -77,22 +77,22 @@ class HomePage extends Component {
             </div>
             <BannerView  />
             <div style={leftWidthStyle}>
-                <Link to={`/waterKeepBack`}>
+                <Link to={`/internal/waterKeepBack`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={waterKeepBackButton} alt=""/>
                     </div>
                 </Link>
-                <Link to={`/fileUse`}>
+                <Link to={`/internal/fileUse`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={fileUseButton} alt=""/>
                     </div>
                 </Link>
-                <Link to={`/exampleForm`}>
+                <Link to={`/internal/exampleForm`}>
                     <div style={{...cellStyle }}>
                         <img style={imageStyle} src={newExampleFormButton} alt=""/>
                     </div>
                 </Link>
-                <Link to={`/formSearch`}>
+                <Link to={`/internal/formSearch`}>
                 <div style={{...cellStyle }}>
                     <img style={imageStyle} src={formSearchButton} alt=""/>
                 </div>
