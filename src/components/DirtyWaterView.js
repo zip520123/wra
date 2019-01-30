@@ -128,6 +128,11 @@ class DirtyWaterView extends Component {
                         <Panel.Title componentClass="h3">應備文件：如下列附件</Panel.Title>
                         </Panel.Heading>
                         <Panel.Body>
+                        
+                        <a style={{textDecoration: 'none'}} href={`http://sewgis.wratb.gov.tw/A106010P_Public/Home/application`} target="_blank" rel="noopener noreferrer" > 
+                            <h4>污水下水道用戶排水及專用下水道設置案件申請審查表格線上填報系統(請依需求選擇並填報後印出用印辦理申請事宜)</h4>
+                        </a>
+        
                             <DownloadLink url="https://www.wratb.gov.tw/media/2022/污水下水道用戶排水設備接管申請表" name="污水下水道用戶排水設備接管申請表" />
                             <DownloadLink url="https://www.wratb.gov.tw/media/2021/污水下水道用戶排水設備接管設計檢核表" name="污水下水道用戶排水設備接管設計檢核表" />
                             <DownloadLink url="https://www.wratb.gov.tw/media/2020/用戶排水設備接管竣工資料卡" name="用戶排水設備接管竣工資料卡" />
@@ -163,6 +168,9 @@ class DirtyWaterView extends Component {
                         <Panel.Title componentClass="h3">應備文件：如下列附件</Panel.Title>
                         </Panel.Heading>
                         <Panel.Body>
+                            <a style={{textDecoration: 'none'}} href={`http://sewgis.wratb.gov.tw/A106010P_Public/Home/application`} target="_blank" rel="noopener noreferrer" > 
+                                <h4>污水下水道用戶排水及專用下水道設置案件申請審查表格線上填報系統(請依需求選擇並填報後印出用印辦理申請事宜)</h4>
+                            </a>
                             <DownloadLink url="https://www.wratb.gov.tw/media/2027/專用下水道申請審查表" name="專用下水道申請審查表" />
                             <DownloadLink url="https://www.wratb.gov.tw/media/2026/專用下水道專業技師檢核表" name="專用下水道專業技師檢核表" />
                             <DownloadLink url="https://www.wratb.gov.tw/media/2025/各處理單元檢核表" name="各處理單元檢核表" />
